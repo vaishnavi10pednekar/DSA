@@ -4,10 +4,10 @@ public class dayone {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
-        // Patterns Making
+        // PATTERNS MAKING
         
-        // 1. 
-        System.out.println("------PATTERN MAKING------");
+        // 1. Solid Rectangle.
+        System.out.println("------PATTERNS MAKING------");
 
         System.out.println("enter the number: ");
         int n = sc.nextInt();
@@ -19,7 +19,7 @@ public class dayone {
         }
         System.out.println();
 
-        // 2.
+        // 2. Half Pyramid.
         for(int i = 0; i < n; i++){
             for(int j = 0; j <= i; j++){
                 System.out.print(" * ");
@@ -28,7 +28,7 @@ public class dayone {
         }
         System.out.println();
 
-        // 3.
+        // 3. Hollow Rectangle.
         for(int i = 1; i <= n; i++){
             for(int j = 1; j <= n; j++){
                 if(i == 1 || j == 1 || i == n || j == n){
@@ -41,7 +41,7 @@ public class dayone {
         }
         System.out.println();
 
-        // 4.
+        // 4. Inverted half Pyramid.
         for(int i = n; i >0; i--){
             for(int j = 0; j < i ; j++){
                 System.out.print(" * ");
@@ -50,7 +50,7 @@ public class dayone {
         }
         System.out.println();
 
-        // 5.
+        // 5. Inverted & Rotated Half Pyramid.
         for(int i = 1; i <= n; i++){
             for(int j = 1; j <= n - i; j++){
                 System.out.print(" ");
@@ -62,7 +62,7 @@ public class dayone {
         }
         System.out.println();
 
-        // 6.
+        // 6. Half Pyramid with Numbers.
         for(int i = 1; i <= n; i++){
             for(int j = 1; j <= i; j++){
                 System.out.print(j + " ");
@@ -71,7 +71,7 @@ public class dayone {
         }
         System.out.println();
 
-        // 7.
+        // 7. Inverted Half Pyramid with Numbers.
         for(int i = n; i >0; i--){
             for(int j = 1; j <= i ; j++){
                 System.out.print(j + " ");
@@ -80,7 +80,7 @@ public class dayone {
         }
         System.out.println();
 
-        // 8.
+        // 8. Floyd's Triangle.
         int number = 1;
         for(int i = 1; i <= n; i++){
             for(int j = 1; j <= i; j++){
@@ -91,7 +91,7 @@ public class dayone {
         }
         System.out.println();
 
-        // 9.
+        // 9. 0-1 Triangle.
         for(int i = 1; i <= n; i++){
             for(int j = 1; j <= i; j++){
                 if((i + j) % 2 == 0){
@@ -103,5 +103,6 @@ public class dayone {
             System.out.println();
         }
         System.out.println();
+
     }
 }
