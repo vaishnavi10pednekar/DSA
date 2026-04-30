@@ -4,6 +4,7 @@ public class daytwo {
         Scanner sc = new Scanner(System.in);
         System.out.println("hello world");
         System.out.println("hii");
+        System.out.println("vaishnavi here!!!");
     }
     
 }
