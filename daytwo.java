@@ -5,6 +5,8 @@ public class daytwo {
         System.out.println("hello world");
         System.out.println("hii");
         System.out.println("vaishnavi here!!!");
+        int n = 78;
+        System.out.println(n);
     }
     
 }
