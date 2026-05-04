@@ -7,6 +7,7 @@ public class daytwo {
         System.out.println("vaishnavi here!!!");
         int n = 78;
         System.out.println("print");
+        System.out.println(n + 2);
         System.out.println(n);
     }
     
