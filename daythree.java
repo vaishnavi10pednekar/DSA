@@ -87,7 +87,7 @@ public class daythree{
         // }
 
         // Reversing of string.
-        String str = sc.next();
+        // String str = sc.next();
 
         // char []arr = str.toCharArray();
         // for(int i = arr.length - 1; i >=0; i--){
@@ -99,30 +99,31 @@ public class daythree{
         // System.out.println(rev);
 
         // Two sum problem
-        // int si = sc.nextInt();
-        // int target = 5;
-        // int []sum = new int[si];
-        // for(int i = 0; i < si; i++){
-        //     sum[i] = sc.nextInt();
-        // }
-        
-        // boolean found = false;
-        // int[]arr = new int[2];
-        // for(int i = 0; i < sum.length; i++){
-        //     for(int j = i + 1; j < sum.length; j++){
-        //         if(sum[i] + sum[j] == target){
-        //             arr[0] = i;
-        //             arr[1] = j;
-        //             found = true;
-        //             break;
-        //         }
-        //     }
-        //     while(found){
-        //         break;
-        //     }
-        // }
-        // System.out.println(Arrays.toString(arr));
+        // int sum[] = {1,2,8,4,5,6};
+        // int target = 8;
 
-        int sum[] = [1,2,3,4,5,6];
+        int si = sc.nextInt();
+        int target = sc.nextInt();
+        int sum[] = new int[si];
+        for(int i = 0; i < si; i++){
+            sum[i] = sc.nextInt();
+        }
+
+        boolean found = false;
+        int []arr = new int[2];
+        for(int i = 0; i < sum.length; i++){
+            for(int j = i + 1; j < sum.length; j++){
+                if(sum[i] + sum[j] == target){
+                    arr[0] = i;
+                    arr[1] = j;
+                    found = true;
+                    break;
+                }
+            }
+            while(found){
+                break;
+            }
+        }
+        System.out.println(Arrays.toString(arr));
     }
 }
