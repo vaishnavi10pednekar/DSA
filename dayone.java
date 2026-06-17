@@ -1,10 +1,9 @@
+// PATTERNS MAKING
 import java.util.*;
 
 public class dayone {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-
-        // PATTERNS MAKING
         
         // 1. Solid Rectangle.
         System.out.println("------PATTERNS MAKING------");
